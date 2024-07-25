@@ -2,7 +2,7 @@
 
 
 body {
-    font-size: 13px;
+    font-size: 12px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
     color:#333;
 	background-image: url("imgs/bgimg.png");
@@ -137,7 +137,7 @@ form {
 }
 
 .feedback-input {
-  color:white;
+  color:black;
   font-weight:500;
   font-size: 16px;
   font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -153,7 +153,10 @@ form {
   outline:0;
 }
 
-.feedback-input:focus { border:2px solid #CC4949; }
+.feedback-input:focus {
+	border:2px solid #77A0F2;
+	background-color: #F1F1F1;
+}
 
 textarea {
   height: 150px;
