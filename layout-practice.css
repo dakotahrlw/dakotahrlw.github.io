@@ -2,8 +2,8 @@
 
 
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 13px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
     color:#333;
 	background-image: url("imgs/bgimg.png");
 	background-repeat: no-repeat;
@@ -36,14 +36,17 @@ p {padding: 10px;
 
 h1 {
 	font-size:36;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	margin: auto;
 	width: 300px;
 	text-align: center;
 }
 
-h2 {font-size: 24;
-font-weight: bold;
-padding-left: 72px; }
+h2 {
+	font-size: 24;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	padding-left: 72px; }
 
 #navigation {
     float: left;
@@ -54,13 +57,6 @@ padding-left: 72px; }
 
 #content {
     float: left;
-    background: #BDCBF2;
-    width: 750px;
-}
-
-#password {
-	float: left;
-	padding: 24px;
     background: #BDCBF2;
     width: 750px;
 }
@@ -110,7 +106,6 @@ footer {
 	margin-top: 0px;
 	color: #FFFFFF;
 	letter-spacing: 0px;
-	margin-left: auto;
 	text-align: center;
 	width: 16%;
 	transition: all 0.3s linear;
@@ -128,3 +123,57 @@ a { color: inherit;
   text-decoration: inherit; 
 	}
 
+#container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;}
+
+
+form {
+	max-width:300px;
+	margin:50px auto;
+}
+
+.feedback-input {
+  color:white;
+  font-weight:500;
+  font-size: 16px;
+  font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  border-radius: 8px;
+  line-height: 22px;
+  background-color: #E2E8FB;
+  border:2px solid #77A0F2;
+  transition: all 0.3s;
+  padding: 14px;
+  margin-bottom: 12px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+  font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+[type="submit"] {
+  width: 100%;
+  background:#9177F2;
+  border-radius:8px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-family: "Tiny5", sans-serif;
+  font-size:24px;
+  padding-top:12px;
+  padding-bottom:12px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#F52E97; }
