@@ -181,3 +181,25 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#F52E97; }
+
+table.Contact {
+  width: 75%;
+  margin: auto;
+  background-color: #BDCBF2;
+  border-collapse: collapse;
+  border-width: 4px;
+  border-color: #9177F2;
+  border-style: solid;
+  color: #000000;
+}
+
+table.Contact td, table.Contact th {
+  border-width: 2px;
+  border-color: #9177F2;
+  border-style: solid;
+  padding: 12px;
+}
+
+table.Contact thead {
+  background-color: #F277DF;
+}
